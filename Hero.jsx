@@ -1,4 +1,4 @@
-import heroImage from '../assets/hero.jpeg';
+﻿import heroImage from '../assets/hero.jpeg'
 
 function Hero() {
   return (
@@ -15,8 +15,8 @@ function Hero() {
             Shape calmer weeks with a therapist who adapts to your rhythm.
           </h1>
           <p className="mt-4 text-base text-slate-600 sm:text-lg">
-            We weave therapist check-ins, audio lessons, and tactile routines so your mental fitness practice fits
-            between video calls, classes, or the school run.
+            We weave therapist check-ins, audio lessons, and tactile routines so your mental fitness
+            practice fits between video calls, classes, or the school run.
           </p>
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
             <div className="rounded-3xl border border-slate-200 bg-white/90 p-5 shadow-inner shadow-slate-200/60">
@@ -84,7 +84,7 @@ function Hero() {
         </section>
       </div>
     </main>
-  );
+  )
 }
 
-export default Hero;
+export default Hero
