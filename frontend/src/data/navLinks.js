@@ -1,8 +1,10 @@
 export const navLinks = [
-  { label: 'Programs', href: '#programs' },
-  { label: 'Therapists', href: '#therapists' },
-  { label: 'Resources', href: '#resources' },
-  { label: 'About', href: '#about' },
+  { label: "Home", href: "/" },                 // PAGE
+  { label: "Courses", href: "/courses" },       // PAGE
+  { label: "Assessments", href: "/assessments" }, // PAGE → updated from #assessments
+  { label: "Programs", href: "/#programs" },    // SECTION
+  { label: "Library", href: "/#library" },      // SECTION
+  { label: "About", href: "/about" },           // PAGE
 ];
 
 export default navLinks;
